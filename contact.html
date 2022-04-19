@@ -39,7 +39,7 @@
           }],
         };
 
-        const webhookUrl = 'https://discord.com/api/webhooks/965807883801477140/VdfR_x_qPTK9J99YN8G3u1Nqp66m5xgr_RBfNYUKlLxvaeLNDjRFkgEgOWuYFaxi0Opg';
+        const webhookUrl = ${{secrets.WEBHOOK_URL}};
 
         const response = await fetch(webhookUrl, {
           method: 'POST',
